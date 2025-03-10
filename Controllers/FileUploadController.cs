@@ -34,6 +34,21 @@ public class FileUploadController: ControllerBase
         var filePath = Path.Combine(_uploadFolder, fileName);
 
         // อัพโหลดไฟล์
+        // เช็คประเภทไฟล์
+        var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+        var ext = Path.GetExtension(file.FileName).ToLower();
+
+        if (!allowedExtensions.Contains(ext))
+        {
+            return BadRequest("Invalid file type.");
+        }
+
+        // เช็คขนาดไฟล์ไม่เกิน 6MB
+        if (file.Length > 6 * 1024 * 1024) // 6MB
+        {
+            return BadRequest("File size cannot exceed 6MB.");
+        }
+
         using (var stream = new FileStream(filePath, FileMode.Create))
         {
             await file.CopyToAsync(stream);
