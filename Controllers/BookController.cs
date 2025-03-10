@@ -12,7 +12,6 @@ public class BookModel
 }
 
 [ApiController]
-[Authorize]
 [Route("api/[controller]")]
 public class BookController : ControllerBase
 {
@@ -26,6 +25,7 @@ public class BookController : ControllerBase
     };
 
     // Read All books
+    [Authorize]
     [HttpGet("books")]
     public IActionResult GetBooks()
     {
@@ -33,6 +33,7 @@ public class BookController : ControllerBase
     }
 
     // Read book by id
+    [Authorize]
     [HttpGet("books/{id}")]
     public IActionResult GetBook(int id)
     {
@@ -45,6 +46,7 @@ public class BookController : ControllerBase
     }
 
     // Create book
+    [Authorize]
     [HttpPost("books")]
     public IActionResult CreateBook([FromBody] BookModel book)
     {
@@ -53,6 +55,7 @@ public class BookController : ControllerBase
     }
 
     // Update book
+    [Authorize]
     [HttpPut("books/{id}")]
     public IActionResult UpdateBook(int id, [FromBody] BookModel book)
     {
@@ -73,6 +76,7 @@ public class BookController : ControllerBase
     }
 
     // Delete book
+    [Authorize]
     [HttpDelete("books/{id}")]
     public IActionResult DeleteBook(int id)
     {
