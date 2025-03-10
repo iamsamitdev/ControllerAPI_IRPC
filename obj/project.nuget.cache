@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "/hJN6mvyXZyRzYFhUFRdCfLkGh1sL8zO5Ko37+EGrr7dSfETtYLw2VY3TxrVKo2iJAHJMXia3YGcMlvomU3wfw==",
+  "success": true,
+  "projectFilePath": "/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/ControllerAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/samit/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.13/microsoft.aspnetcore.authentication.jwtbearer.8.0.13.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.bcl.memory/9.0.0/microsoft.bcl.memory.9.0.0.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.identitymodel.abstractions/8.6.1/microsoft.identitymodel.abstractions.8.6.1.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.6.1/microsoft.identitymodel.jsonwebtokens.8.6.1.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.identitymodel.logging/8.6.1/microsoft.identitymodel.logging.8.6.1.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.identitymodel.tokens/8.6.1/microsoft.identitymodel.tokens.8.6.1.nupkg.sha512",
+    "/Users/samit/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/samit/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/samit/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/samit/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/samit/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/Users/samit/.nuget/packages/system.identitymodel.tokens.jwt/8.6.1/system.identitymodel.tokens.jwt.8.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
