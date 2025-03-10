@@ -30,3 +30,13 @@
 /Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/obj/Debug/net8.0/ControllerAPI.pdb
 /Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/obj/Debug/net8.0/ControllerAPI.genruntimeconfig.cache
 /Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/obj/Debug/net8.0/ref/ControllerAPI.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/bin/Debug/net8.0/Microsoft.Bcl.Memory.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/samit/TrainingWorkshop/DotnetAngularIRPC/ControllerAPI/obj/Debug/net8.0/ControllerAPI.sourcelink.json

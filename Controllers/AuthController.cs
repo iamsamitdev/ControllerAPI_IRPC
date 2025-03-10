@@ -22,7 +22,7 @@ public class AuthController: ControllerBase
     // สร้าง constructor รับค่า key มา
     public AuthController() {
         // กำหนดค่า secret key ให้กับ _key
-        _key = "uw03u3uou3ioui3u33oiu3uy";
+        _key = "uw03u3uou3ioui3u33oiu3uyioeu93u8yiy83eu893";
     }
 
     [HttpPost("login")]
