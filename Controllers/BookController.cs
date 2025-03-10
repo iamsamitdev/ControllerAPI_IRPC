@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControllerAPI.Controllers;
@@ -11,6 +12,7 @@ public class BookModel
 }
 
 [ApiController]
+[Authorize]
 [Route("api/[controller]")]
 public class BookController : ControllerBase
 {

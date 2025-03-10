@@ -1,6 +1,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 namespace ControllerAPI.Controllers;
@@ -13,6 +14,7 @@ public class UserLogin
 }
 
 [ApiController]
+[AllowAnonymous]
 [Route("api/[controller]")]
 public class AuthController: ControllerBase
 {
