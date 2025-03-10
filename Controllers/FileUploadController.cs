@@ -20,7 +20,7 @@ public class FileUploadController: ControllerBase
     }
 
     [HttpPost("upload")]
-    public async Task<IActionResult> UploadFile([FromForm] IFormFile file)
+    public async Task<IActionResult> UploadFile(IFormFile file)
     {
         // ถ้าไม่มีไฟล์อัพโหลด
         if (file == null || file.Length == 0)
